@@ -159,6 +159,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        /**
+         * Composer install
+         */
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
     ],
 
